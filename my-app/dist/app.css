@@ -52,6 +52,11 @@ header img {
   text-align: center;
 }
 
+.cd:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+
 .cd img {
   max-width: 100%;
 }
@@ -66,10 +71,6 @@ header img {
 .cd span.author {
   color: grey;
   font-size: 20px;
-}
-
-ul li {
-  cursor: pointer;
 }
 
 .select-css {

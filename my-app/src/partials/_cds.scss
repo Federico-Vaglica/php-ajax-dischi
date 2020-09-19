@@ -9,7 +9,10 @@
     height: 360px;
     background: $HE_CD_BckgColor;
     text-align: center;
-
+    &:hover{
+        cursor: pointer;
+        background-color: orange;
+    }
     img{
         max-width: 100%;
     }
@@ -28,9 +31,6 @@
 
 
 
-ul li {
-    cursor: pointer;
-}
 
 .select-css {
 	display: block;

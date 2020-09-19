@@ -1,3 +1,5 @@
+<?php include 'dischi-dp.php'?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
@@ -17,13 +19,14 @@
 
         <div class="cds-container container">
             <!-- Disco ad esempio -->
-          
+        <?php foreach($database as $cd) {?>
             <div class="cd">
-                <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Ten_Summoner%27s_Tales.jpg" alt="">
-                <h3>Ten's Summoners Tales</h3>
-                <span class="author">Sting</span>
-                <span class="year">1993</span>
+                <img src="<?php echo $cd['poster']; ?>" alt="<?php echo $cd['title'];?>">
+                <h3><?php echo $cd['title'];?></h3>
+                <span class="author"><?php echo $cd['author']; ?></span>
+                <span class="year"><?php echo $cd['year']; ?></span>
             </div>
+        <?php }?>
         </div>
         <script id="entry-template" type="text/x-handlebars-template">
             <div class="cd">

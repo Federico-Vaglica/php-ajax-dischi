@@ -93,11 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-<<<<<<< Updated upstream
 
-=======
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nError: ENOENT: no such file or directory, open '/home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/src/app.js'");
->>>>>>> Stashed changes
 
 /***/ }),
 
@@ -108,11 +104,7 @@ throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-<<<<<<< Updated upstream
 // removed by extract-text-webpack-plugin
-=======
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nError: ENOENT: no such file or directory, open '/home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/src/app.scss'\n    at /home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/node_modules/webpack/lib/NormalModule.js:316:20\n    at /home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/node_modules/loader-runner/lib/LoaderRunner.js:367:11\n    at /home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/node_modules/loader-runner/lib/LoaderRunner.js:203:19\n    at /home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)");
->>>>>>> Stashed changes
 
 /***/ }),
 
@@ -123,8 +115,8 @@ throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /home/federicov/Scrivania/php-test/php-ajax-dischi/my-app/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /home/federicov/Scrivania/php-test/php-ajax-dischi1/my-app/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /home/federicov/Scrivania/php-test/php-ajax-dischi1/my-app/src/app.scss */"./src/app.scss");
 
 
 /***/ })
