@@ -1,4 +1,4 @@
-<?php include 'dischi-dp.php'?>
+
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -19,25 +19,18 @@
 
         <div class="cds-container container">
             <!-- Disco ad esempio -->
-        <?php foreach($database as $cd) {?>
-            <div class="cd">
-                <img src="<?php echo $cd['poster']; ?>" alt="<?php echo $cd['title'];?>">
-                <h3><?php echo $cd['title'];?></h3>
-                <span class="author"><?php echo $cd['author']; ?></span>
-                <span class="year"><?php echo $cd['year']; ?></span>
-            </div>
-        <?php }?>
+  
         </div>
         <script id="entry-template" type="text/x-handlebars-template">
             <div class="cd">
-                <img src="{{poster}}" alt="">
+                <img src="{{poster}}" alt="{{title}}">
                 <h3>{{title}}</h3>
                 <span class="author">{{author}}</span>
                 <span class="year">{{year}}</span>
             </div>
         </script>
           
-
+        <script src="dist/app.js"></script>
         <script src="main.js" charset="utf-8"></script>
     </body>
 </html>
