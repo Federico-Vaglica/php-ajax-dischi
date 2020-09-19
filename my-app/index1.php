@@ -16,10 +16,11 @@
                 <img src="https://raw.githubusercontent.com/Federico-Vaglica/js-jq-ajax-api-musica/master/logo.png" alt="logo" />
             </div>
         </header>
-
+        <select name="authors" id="authors">
+            <option value="all">All Authors</option>
+        </select>
         <div class="cds-container container">
             <!-- Disco ad esempio -->
-  
         </div>
         <script id="entry-template" type="text/x-handlebars-template">
             <div class="cd">
@@ -29,8 +30,11 @@
                 <span class="year">{{year}}</span>
             </div>
         </script>
-          
+
+
+        <script id="entry-template2" type="text/x-handlebars-template">
+                <option value="{{author}}">{{author}}</option>
+        </script>
         <script src="dist/app.js"></script>
-        <script src="main.js" charset="utf-8"></script>
     </body>
 </html>
