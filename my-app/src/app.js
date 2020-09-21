@@ -12,7 +12,8 @@ $(document).ready(function(){
             }
         }
     );
-});
+    
+
 
 $(document).on('change','select' ,function() {
     genere = $(this).val()
@@ -52,15 +53,21 @@ function printData(data){
 function printAuthor(data){
     var source = document.getElementById("entry-template2").innerHTML;
     var template = Handlebars.compile(source);
+    var artist = []
     for (var i = 0; i < data.length; i++){
-        var context = {
-            'author':data[i].author,
-        };
-        
-        var html = template(context);
-        $('#authors').append(html);
-
+        // artist.push(data[i].author)    
+        // artist.includes(data[i].author)
+        if(artist.includes(data[i].author) != true){
+            artist.push(data[i].author)
+            var context = {
+                'author':data[i].author,
+            };
+            var html = template(context);
+            $('#authors').append(html);
+        }
     }
+    console.log(artist)
+    
 }
 
 function estrapolateAuthor(data){
@@ -83,4 +90,5 @@ function estrapolateAuthor(data){
 
         }
 }
+});
 
