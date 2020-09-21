@@ -29,7 +29,7 @@
             </div>
         </script>
 
-
+        <p>ciao</p>
         <script id="entry-template2" type="text/x-handlebars-template">
                 <option value="{{author}}">{{author}}</option>
         </script>
