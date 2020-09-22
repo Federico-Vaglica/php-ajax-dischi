@@ -141,7 +141,7 @@ $(document).ready(function () {
     var artist = [];
 
     for (var i = 0; i < data.length; i++) {
-      if (artist.includes(data[i].author) != true) {
+      if (!artist.includes(data[i].author)) {
         artist.push(data[i].author);
         var context = {
           'author': data[i].author
